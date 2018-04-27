@@ -23,11 +23,11 @@ The goals / steps of this project are the following:
 [image2]: Results/RGB2Grayimg.png"Grayscaling"
 [image3]: Results/Augumentaionimg.png "Augumentaion"
 [image4]: Results/histogramAfterAugmentation.png "dataAfterAugumentation"
-[image5]: OnlineTestData/Priorityroad.png "Traffic Sign 1"
-[image6]: OnlineTestData/Round.png "Traffic Sign 2"
-[image7]:  OnlineTestData/speed_60.png "Traffic Sign 3"
-[image8]:  OnlineTestData/Trafficsigns.png "Traffic Sign 4"
-[image9]:  OnlineTestData/wildAnimal.png "Traffic Sign 5"
+[image5]: OnlineImages/Priorityroad.png "Traffic Sign 1"
+[image6]: OnlineImages/Round.png "Traffic Sign 2"
+[image7]:  OnlineImages/speed_60.png "Traffic Sign 3"
+[image8]:  OnlineImages/Trafficsigns.png "Traffic Sign 4"
+[image9]:  OnlineImages/wildAnimal.png "Traffic Sign 5"
 [image10]: Results/NewImgVisu.png "NewImagePrediction"
 
 ## Rubric Points
@@ -139,8 +139,8 @@ because lenet has good accuracy on letters and numbers. The traffic sign are sim
 
 Here are five German traffic signs that I found on the web:
 
-![alt text](OnlineTestData/Priorityroad.png) ![alt text](OnlineTestData/Round) ![alt text](OnlineTestData/speed_60.png) 
-![alt text](OnlineTestData/Trafficsigns.png) ![alt text](OnlineTestData/wildAnimal.png)
+![alt text](OnlineImages/Priorityroad.png) ![alt text](OnlineImages/Round) ![alt text](OnlineImages/speed_60.png) 
+![alt text](OnlineImages/Trafficsigns.png) ![alt text](OnlineImages/wildAnimal.png)
 
 The first image is easy to predict due to the unique shape of the animal. 
 The second image has curved arrows, which is difficult to predict
