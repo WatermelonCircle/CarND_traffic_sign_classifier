@@ -24,11 +24,11 @@ The goals / steps of this project are the following:
 [image3]: Results/Augumentaionimg.png "Augumentaion"
 [image4]: Results/histogramAfterAugmentation.png "dataAfterAugumentation"
 [image5]: OnlineTestData/Priorityroad.png "Traffic Sign 1"
-[image6]: ./OnlineTestData/Round.png "Traffic Sign 2"
-[image7]: ./OnlineTestData/speed_60.png "Traffic Sign 3"
-[image8]: ./OnlineTestData/Trafficsigns.png "Traffic Sign 4"
-[image9]: ./OnlineTestData/wildAnimal.png "Traffic Sign 5"
-[image10]: ./Results/NewImgVisu.png "NewImagePrediction"
+[image6]: OnlineTestData/Round.png "Traffic Sign 2"
+[image7]:  OnlineTestData/speed_60.png "Traffic Sign 3"
+[image8]:  OnlineTestData/Trafficsigns.png "Traffic Sign 4"
+[image9]:  OnlineTestData/wildAnimal.png "Traffic Sign 5"
+[image10]: Results/NewImgVisu.png "NewImagePrediction"
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
@@ -57,7 +57,7 @@ signs data set:
 
 Here is an exploratory visualization of the data set. It is a bar chart showing how the data ...
 
-![histogramPlot]([image1])
+![histogramPlot](Results/histogramplot.png)
 
 ### Design and Test a Model Architecture
 
@@ -67,14 +67,14 @@ I tried both grayscale and RGB to feed the model later. For both gray and RGB im
 
 Here is an example of a traffic sign image before and after grayscaling.
 
-![alt text][image2]
+![Gray](Results/RGB2Grayimg.png)
 
 Since the some traffic signs has much less data than other, so I also did image augumention(rotation, affine transform and translation) by static or dynamic fashion to train the model later, but found out the either of them doesnt really helpful. So the final model didnt implement the data augumentaion. Here is example of image augumented data:
 
 
 Here is an example of an original image and an augmented image:
 
-![alt text][image3]
+![Augumentation](Results/Augumentaionimg.png)
 
 
 
@@ -109,8 +109,8 @@ I started with the standard lenet configuration, and then found the model is ove
 * I tried L2 regularizatin to reduce the overfitting, tried beta from 0.0001~0.1. found 0.001 gave me best training accuracy and validation accuracy (~94%) 
 * I tried data augmention by increasing the number of those signs which has much less in the data base. the following histogram shown the before and after data augumentation. However the data augumentation doesnt really help on improving the model accuracy, so it is not implemented in the final model 
 
-![alt text][image1]
-![alt text][image4]
+![Before](Results/histogramplot.png)
+![After](Results/histogramAfterAugmentation.png)
 
 My final model results were:
 * training set accuracy of 0.999
@@ -139,8 +139,8 @@ because lenet has good accuracy on letters and numbers. The traffic sign are sim
 
 Here are five German traffic signs that I found on the web:
 
-![alt text](image5) ![alt text][image6] ![alt text][image7] 
-![alt text][image8] ![alt text][image9]
+![alt text](OnlineTestData/Priorityroad.png) ![alt text](OnlineTestData/Round) ![alt text](OnlineTestData/speed_60.png) 
+![alt text](OnlineTestData/Trafficsigns.png) ![alt text](OnlineTestData/wildAnimal.png)
 
 The first image is easy to predict due to the unique shape of the animal. 
 The second image has curved arrows, which is difficult to predict
@@ -178,7 +178,7 @@ The top prediction for each image are listed in the following table
 | .00				    | Priority road	      							|
 
 
-![alt text][image10] 
+![alt text](Results/NewImgVisu.png) 
 
 ### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
 #### 1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
