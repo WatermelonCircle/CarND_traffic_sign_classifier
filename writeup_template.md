@@ -139,7 +139,7 @@ because lenet has good accuracy on letters and numbers. The traffic sign are sim
 
 Here are five German traffic signs that I found on the web:
 
-![alt text](OnlineImages/Priorityroad.png) ![alt text](OnlineImages/Round) ![alt text](OnlineImages/speed_60.png) 
+![alt text](OnlineImages/Priorityroad.png) ![alt text](OnlineImages/Round.png) ![alt text](OnlineImages/speed_60.png) 
 ![alt text](OnlineImages/Trafficsigns.png) ![alt text](OnlineImages/wildAnimal.png)
 
 The first image is easy to predict due to the unique shape of the animal. 
