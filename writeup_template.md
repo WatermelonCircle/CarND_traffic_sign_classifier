@@ -19,10 +19,10 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./Results/histogramplot.png "Visualization"
-[image2]: ./Results/RGB2Grayimg.png"Grayscaling"
-[image3]: ./Results/Augumentaionimg.png "Augumentaion"
-[image4]: ./Results/histogramAfterAugmentation.png "dataAfterAugumentation"
+[image1]: Results/histogramplot.png "Visualization"
+[image2]: Results/RGB2Grayimg.png"Grayscaling"
+[image3]: Results/Augumentaionimg.png "Augumentaion"
+[image4]: Results/histogramAfterAugmentation.png "dataAfterAugumentation"
 [image5]: ./OnlineTestData/Priorityroad.png "Traffic Sign 1"
 [image6]: ./OnlineTestData/Round.png "Traffic Sign 2"
 [image7]: ./OnlineTestData/speed_60.png "Traffic Sign 3"
