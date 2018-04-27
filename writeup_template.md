@@ -23,7 +23,7 @@ The goals / steps of this project are the following:
 [image2]: Results/RGB2Grayimg.png"Grayscaling"
 [image3]: Results/Augumentaionimg.png "Augumentaion"
 [image4]: Results/histogramAfterAugmentation.png "dataAfterAugumentation"
-[image5]: ./OnlineTestData/Priorityroad.png "Traffic Sign 1"
+[image5]: OnlineTestData/Priorityroad.png "Traffic Sign 1"
 [image6]: ./OnlineTestData/Round.png "Traffic Sign 2"
 [image7]: ./OnlineTestData/speed_60.png "Traffic Sign 3"
 [image8]: ./OnlineTestData/Trafficsigns.png "Traffic Sign 4"
@@ -57,7 +57,7 @@ signs data set:
 
 Here is an exploratory visualization of the data set. It is a bar chart showing how the data ...
 
-![histogramPlot](Results/histogramplot.png)
+![histogramPlot]([image1]
 
 ### Design and Test a Model Architecture
 
