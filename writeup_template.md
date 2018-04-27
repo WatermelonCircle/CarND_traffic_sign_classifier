@@ -57,7 +57,7 @@ signs data set:
 
 Here is an exploratory visualization of the data set. It is a bar chart showing how the data ...
 
-![histogramPlot]([image1]
+![histogramPlot]([image1])
 
 ### Design and Test a Model Architecture
 
