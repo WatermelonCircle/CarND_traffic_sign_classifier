@@ -57,7 +57,7 @@ signs data set:
 
 Here is an exploratory visualization of the data set. It is a bar chart showing how the data ...
 
-![alt text][image1]
+![alt text](image1)
 
 ### Design and Test a Model Architecture
 
@@ -139,7 +139,7 @@ because lenet has good accuracy on letters and numbers. The traffic sign are sim
 
 Here are five German traffic signs that I found on the web:
 
-![alt text][image5] ![alt text][image6] ![alt text][image7] 
+![alt text](image5) ![alt text][image6] ![alt text][image7] 
 ![alt text][image8] ![alt text][image9]
 
 The first image is easy to predict due to the unique shape of the animal. 
